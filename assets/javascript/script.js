@@ -3,15 +3,25 @@ $(function() {
 // Thanks to Andy E for this shuffler:
 // https://stackoverflow.com/questions/3943772/how-do-i-shuffle-the-characters-in-a-string-in-javascript
 String.prototype.shuffle = function () {
-    var a = this.split(""),
-        n = a.length;
-    for(var i = n - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
+    var trim = this.trim();
+    var [padL, padR] = this.split(trim);
+    var a = trim.split("").filter(c => c !== " "),
+        fullLen = trim.length,
+        len = a.length;
+
+    for(var i = len - 1; i > 0; i--) {
         var tmp = a[i];
+
+        var j = Math.floor(Math.random() * (i + 1));
         a[i] = a[j];
         a[j] = tmp;
     }
-    return a.join("");
+
+    for (var i = (fullLen - len); i > 0; i--) {
+        a.splice(Math.floor(Math.random() * (len - 1) + 1), 0, " ");
+    }
+    
+    return [padL, ...a, padR].join("");
 }
 
 // Thanks to Justin Windle for posting this scrambler:
