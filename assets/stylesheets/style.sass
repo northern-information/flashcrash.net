@@ -1,2 +1,78 @@
-nav.container-fluid
-  margin-top: 10px
+$yellow: #ffff00
+$black: #1b1b1b
+
+$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
+$mono: 'VT323', monospace
+
+body
+  font-family: $sans
+  background: $yellow
+  color: $black
+
+h1, h2, h3, h4, h5, h6
+  font-size: 2rem
+
+p, li
+  font-size: 2rem
+
+a,
+a:link,
+a:visited
+  color: $black
+  text-decoration: underline
+  word-wrap: break-word
+a:hover,
+a:active
+  color: $yellow
+  background: $black
+
+nav
+  li
+    display: inline
+    a
+      font-family: $mono
+      border: 4px solid $black
+      font-size: 3rem
+      color: $black
+      padding: 0 5px
+      text-decoration: none !important
+  li.active a,
+  li a:hover
+    background: $black
+    color: $yellow
+    text-decoration: none
+
+ul, ol
+  list-style-position: inside
+  margin: 0
+  padding: 0
+
+ul li
+  list-style-type: square
+
+ul.index li
+  list-style-type: none
+
+.content
+  background: $black
+  font-weight: bold
+  padding: 2rem
+  p, li, pre, code
+    color: $yellow
+  h1, h2, h3, h4, h5, h6
+    color: $yellow
+    font-family: $mono
+    font-size: 3rem
+    border-bottom: 3px solid $yellow
+  a,
+  a:link,
+  a:visited
+    color: $yellow
+    text-decoration: underline
+    word-wrap: break-word
+  a:hover,
+  a:active
+    color: $black
+    background: $yellow
+  li
+    margin-bottom: 1rem

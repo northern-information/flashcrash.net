@@ -1,4 +1,74 @@
-nav.container-fluid {
-  margin-top: 10px; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background: #ffff00;
+  color: #1b1b1b; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 2rem; }
+
+p, li {
+  font-size: 2rem; }
+
+a,
+a:link,
+a:visited {
+  color: #1b1b1b;
+  text-decoration: underline;
+  word-wrap: break-word; }
+
+a:hover,
+a:active {
+  color: #ffff00;
+  background: #1b1b1b; }
+
+nav li {
+  display: inline; }
+  nav li a {
+    font-family: "VT323", monospace;
+    border: 4px solid #1b1b1b;
+    font-size: 3rem;
+    color: #1b1b1b;
+    padding: 0 5px;
+    text-decoration: none !important; }
+nav li.active a,
+nav li a:hover {
+  background: #1b1b1b;
+  color: #ffff00;
+  text-decoration: none; }
+
+ul, ol {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style-type: square; }
+
+ul.index li {
+  list-style-type: none; }
+
+.content {
+  background: #1b1b1b;
+  font-weight: bold;
+  padding: 2rem; }
+  .content p, .content li, .content pre, .content code {
+    color: #ffff00; }
+  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #ffff00;
+    font-family: "VT323", monospace;
+    font-size: 3rem;
+    border-bottom: 3px solid #ffff00; }
+  .content a,
+  .content a:link,
+  .content a:visited {
+    color: #ffff00;
+    text-decoration: underline;
+    word-wrap: break-word; }
+  .content a:hover,
+  .content a:active {
+    color: #1b1b1b;
+    background: #ffff00; }
+  .content li {
+    margin-bottom: 1rem; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<ul class="index">
+  {% for item in site.data.events %}
+  <li class="mb-3"><a href="/assets/images/fc{{ item.date }}.jpg"><img class="img-fluid" src="/assets/images/fc{{ item.date }}.jpg"></a></li>
+  {% endfor %}
+</ul>

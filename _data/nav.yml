@@ -1,13 +1,11 @@
-pages:
-
-- title: home
+- title: FLASH CRASH
+  class: fc
   url: /
 
-- title: posts
-  url: /posts
+- title: MISSION
+  class:
+  url: /mission/
 
-- title: collections
-  url: /collections
-
-- title: about
-  url: /about
+- title: TECHNICAL
+  class:
+  url: /technical/

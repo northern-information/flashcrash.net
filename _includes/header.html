@@ -1,11 +1,16 @@
-<header class="container-fluid my-5">
-  <div class="row my-5">
-    <div class="col-lg-2 col-md-2 col-sm-12">
-      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/assets/images/northern-information.svg"></a>
-    </div>
-    <div class="col-lg-10 col-md-10 col-sm-12">
-      <a href="{{ site.baseurl }}"><h1 id="cc" class="align-middle">{{ site.title }}</h1></a>
-      <p>{{ site.description }}</p>
+<header class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12">
+      <nav>
+        <ul>
+        {% for item in site.data.nav %}
+        <li class="{% if item.url == page.url %}active{% endif %}"><a class="{{ item.class }}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </nav>
+      <h2>NEXT: 2021 JULY 10 UTC 20:00</h2>
+      <h2><a href="twitch.tv/lines_community">TWITCH.TV/LINES_COMMUNITY</a></h2>
+      <h2>LIVE CODE LIVE MUSIC LIVE</h2>
     </div>
   </div>
 </header>

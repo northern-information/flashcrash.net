@@ -1,5 +1,4 @@
-title: perfect bootstrap jekyll
-description: the perfect bootstrap jekyll starting theme. xoxo northern information.
+title: FLASH CRASH
 baseurl: /
 url: https://flashcrash.me
 permalink: pretty
@@ -10,6 +9,3 @@ kramdown:
 plugins:
   - jekyll-feed
 include: ['_pages']
-collections_dir: collections
-collections:
-  - examples
