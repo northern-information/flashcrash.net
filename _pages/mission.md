@@ -7,7 +7,7 @@ permalink: /mission/
 
 We are...
 
-- ...rooted the global livecoding scene.
+- ...root(-kit)ed in the global livecoding scene.
 - ...anchored by the rallying cry "show us your screens!"
 - ...a recursive live stream && artist community.
 - ...celebrating crashes && mistakes.
