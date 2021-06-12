@@ -85,7 +85,6 @@ if ($('.fc').length) {
   const fx = new TextScramble(el);
   var i = 2
   const next = () => {
-    console.log(i--);
     var text = 'FLASH CRASH';
     if (i < 0) {
       i = 2;
