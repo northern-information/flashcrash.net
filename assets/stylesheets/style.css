@@ -70,5 +70,18 @@ ul.index li {
     background: #ffff00; }
   .content li {
     margin-bottom: 1rem; }
+  .content img {
+    max-width: 100%;
+    height: auto; }
+
+.northern-information a {
+  display: block;
+  width: 75px;
+  height: 35px;
+  margin-bottom: 10px; }
+.northern-information a:hover .ni {
+  fill: #ffff00; }
+.northern-information .ni {
+  fill: #1b1b1b; }
 
 /*# sourceMappingURL=style.css.map */
