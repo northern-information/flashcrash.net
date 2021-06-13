@@ -21,56 +21,83 @@ a:active {
   color: #ffff00;
   background: #1b1b1b; }
 
-nav li {
-  display: inline; }
-  nav li a {
-    font-family: "VT323", monospace;
-    border: 4px solid #1b1b1b;
-    font-size: 3rem;
-    color: #1b1b1b;
-    padding: 0 5px;
-    text-decoration: none !important; }
-nav li.active a,
-nav li a:hover {
-  background: #1b1b1b;
-  color: #ffff00;
-  text-decoration: none; }
+nav ul {
+  margin: 0;
+  padding: 0; }
+  nav ul li {
+    display: inline; }
+    nav ul li a {
+      font-family: "VT323", monospace;
+      border: 4px solid #1b1b1b;
+      font-size: 3rem;
+      color: #1b1b1b;
+      padding: 0 5px;
+      text-decoration: none !important; }
+  nav ul li.active a,
+  nav ul li a:hover {
+    background: #1b1b1b;
+    color: #ffff00;
+    text-decoration: none; }
 
-ul, ol {
-  list-style-position: inside;
+.index ul {
+  list-style-type: none;
   margin: 0;
   padding: 0; }
 
-ul li {
-  list-style-type: square; }
+.mission ul {
+  list-style-position: outside;
+  margin: 0;
+  padding: 0 0 0 30px; }
+  .mission ul li {
+    list-style-type: square; }
 
-ul.index li {
-  list-style-type: none; }
+.technical ol {
+  list-style-position: outside;
+  margin: 0;
+  padding: 0 0 0 30px; }
 
-.content {
+.content.mission,
+.content.technical {
   background: #1b1b1b;
   font-weight: bold;
   padding: 2rem; }
-  .content p, .content li, .content pre, .content code {
+  .content.mission p, .content.mission li, .content.mission pre, .content.mission code,
+  .content.technical p,
+  .content.technical li,
+  .content.technical pre,
+  .content.technical code {
     color: #ffff00; }
-  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  .content.mission h1, .content.mission h2, .content.mission h3, .content.mission h4, .content.mission h5, .content.mission h6,
+  .content.technical h1,
+  .content.technical h2,
+  .content.technical h3,
+  .content.technical h4,
+  .content.technical h5,
+  .content.technical h6 {
     color: #ffff00;
     font-family: "VT323", monospace;
     font-size: 3rem;
     border-bottom: 3px solid #ffff00; }
-  .content a,
-  .content a:link,
-  .content a:visited {
+  .content.mission a,
+  .content.mission a:link,
+  .content.mission a:visited,
+  .content.technical a,
+  .content.technical a:link,
+  .content.technical a:visited {
     color: #ffff00;
     text-decoration: underline;
     word-wrap: break-word; }
-  .content a:hover,
-  .content a:active {
+  .content.mission a:hover,
+  .content.mission a:active,
+  .content.technical a:hover,
+  .content.technical a:active {
     color: #1b1b1b;
     background: #ffff00; }
-  .content li {
+  .content.mission li,
+  .content.technical li {
     margin-bottom: 1rem; }
-  .content img {
+  .content.mission img,
+  .content.technical img {
     max-width: 100%;
     height: auto; }
 

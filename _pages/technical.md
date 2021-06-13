@@ -2,6 +2,7 @@
 layout: page
 title: TECHNICAL
 permalink: /technical/
+class: technical
 ---
 # LIVE
 

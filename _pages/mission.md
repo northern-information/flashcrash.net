@@ -2,6 +2,7 @@
 layout: page
 title: MISSION
 permalink: /mission/
+class: mission
 ---
 # FLASH CRASH IS A CELEBRATION OF LIVECODING
 

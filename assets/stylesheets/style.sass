@@ -26,7 +26,9 @@ a:active
   color: $yellow
   background: $black
 
-nav
+nav ul
+  margin: 0
+  padding: 0
   li
     display: inline
     a
@@ -42,18 +44,25 @@ nav
     color: $yellow
     text-decoration: none
 
-ul, ol
-  list-style-position: inside
+.index ul
+  list-style-type: none
   margin: 0
   padding: 0
 
-ul li
-  list-style-type: square
+.mission ul
+  list-style-position: outside
+  margin: 0
+  padding: 0 0 0 30px
+  li
+    list-style-type: square
 
-ul.index li
-  list-style-type: none
+.technical ol
+  list-style-position: outside
+  margin: 0
+  padding: 0 0 0 30px
 
-.content
+.content.mission,
+.content.technical
   background: $black
   font-weight: bold
   padding: 2rem
