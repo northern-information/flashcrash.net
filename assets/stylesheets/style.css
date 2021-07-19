@@ -57,7 +57,8 @@ nav ul {
   padding: 0 0 0 30px; }
 
 .content.mission,
-.content.technical {
+.content.technical,
+.content.archives {
   background: #1b1b1b;
   font-weight: bold;
   padding: 2rem; }
@@ -65,7 +66,11 @@ nav ul {
   .content.technical p,
   .content.technical li,
   .content.technical pre,
-  .content.technical code {
+  .content.technical code,
+  .content.archives p,
+  .content.archives li,
+  .content.archives pre,
+  .content.archives code {
     color: #ffff00; }
   .content.mission h1, .content.mission h2, .content.mission h3, .content.mission h4, .content.mission h5, .content.mission h6,
   .content.technical h1,
@@ -73,7 +78,13 @@ nav ul {
   .content.technical h3,
   .content.technical h4,
   .content.technical h5,
-  .content.technical h6 {
+  .content.technical h6,
+  .content.archives h1,
+  .content.archives h2,
+  .content.archives h3,
+  .content.archives h4,
+  .content.archives h5,
+  .content.archives h6 {
     color: #ffff00;
     font-family: "VT323", monospace;
     font-size: 3rem;
@@ -83,21 +94,28 @@ nav ul {
   .content.mission a:visited,
   .content.technical a,
   .content.technical a:link,
-  .content.technical a:visited {
+  .content.technical a:visited,
+  .content.archives a,
+  .content.archives a:link,
+  .content.archives a:visited {
     color: #ffff00;
     text-decoration: underline;
     word-wrap: break-word; }
   .content.mission a:hover,
   .content.mission a:active,
   .content.technical a:hover,
-  .content.technical a:active {
+  .content.technical a:active,
+  .content.archives a:hover,
+  .content.archives a:active {
     color: #1b1b1b;
     background: #ffff00; }
   .content.mission li,
-  .content.technical li {
+  .content.technical li,
+  .content.archives li {
     margin-bottom: 1rem; }
   .content.mission img,
-  .content.technical img {
+  .content.technical img,
+  .content.archives img {
     max-width: 100%;
     height: auto; }
 
@@ -105,10 +123,17 @@ nav ul {
   display: block;
   width: 75px;
   height: 35px;
-  margin-bottom: 10px; }
+  margin: auto;
+  margin-top: 25px; }
 .northern-information a:hover .ni {
   fill: #ffff00; }
 .northern-information .ni {
   fill: #1b1b1b; }
+
+iframe {
+  padding: 15px;
+  width: 100%;
+  min-height: 400px;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */
