@@ -4,9 +4,17 @@ title: TECHNICAL
 permalink: /technical/
 class: technical
 ---
-# LIVE
+# PERFORMING
 
-We use [https://vdo.ninja](https://vdo.ninja) to send everyone's captures to the VJs.
+Performing a has a few requirements:
+
+1. Make music with code! Flash Crash is a showcase for livecoding.
+2. Show us your screen! We want to see your code while you play.
+3. Get weird! Experiments and crashes are celebrated. This is an opportunity to showcase radically wild work.
+
+# LIVE SETS
+
+We use [https://vdo.ninja](https://vdo.ninja) to send everyone's captures to the VJs. We assume you are familiar with OBS or similar. If not, ask the organizers for a (flash) crash course.
 
 [![Schematic](/assets/images/schematic.png)](/assets/images/schematic.png)
 
@@ -20,7 +28,7 @@ It is just a few steps:
 5. You shred.
 6. The end!
 
-# RECORDED
+# RECORDED SETS
 
 If you're planning to pre-record your set, please share it with the VJs at least 12 hours before curtain call. Whatever format is cool but we would love MP4s.
 
