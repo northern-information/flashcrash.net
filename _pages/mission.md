@@ -8,6 +8,9 @@ class: mission
 
 We are...
 
+- ... here to be changed by the world.
+- ... here to be changed by each other.
+- ... here to change each other.
 - ... a celebration of livecoding.
 - ... root(-kit)ed in the global livecoding scene.
 - ... anchored by the rallying cry "show us your screens!"
