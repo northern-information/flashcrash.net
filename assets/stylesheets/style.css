@@ -56,13 +56,18 @@ nav ul {
   margin: 0;
   padding: 0 0 0 30px; }
 
+.content.index,
 .content.mission,
 .content.technical,
 .content.archives {
   background: #1b1b1b;
   font-weight: bold;
   padding: 2rem; }
-  .content.mission p, .content.mission li, .content.mission pre, .content.mission code,
+  .content.index p, .content.index li, .content.index pre, .content.index code,
+  .content.mission p,
+  .content.mission li,
+  .content.mission pre,
+  .content.mission code,
   .content.technical p,
   .content.technical li,
   .content.technical pre,
@@ -72,7 +77,13 @@ nav ul {
   .content.archives pre,
   .content.archives code {
     color: #ffff00; }
-  .content.mission h1, .content.mission h2, .content.mission h3, .content.mission h4, .content.mission h5, .content.mission h6,
+  .content.index h1, .content.index h2, .content.index h3, .content.index h4, .content.index h5, .content.index h6,
+  .content.mission h1,
+  .content.mission h2,
+  .content.mission h3,
+  .content.mission h4,
+  .content.mission h5,
+  .content.mission h6,
   .content.technical h1,
   .content.technical h2,
   .content.technical h3,
@@ -89,6 +100,9 @@ nav ul {
     font-family: "VT323", monospace;
     font-size: 3rem;
     border-bottom: 3px solid #ffff00; }
+  .content.index a,
+  .content.index a:link,
+  .content.index a:visited,
   .content.mission a,
   .content.mission a:link,
   .content.mission a:visited,
@@ -101,6 +115,8 @@ nav ul {
     color: #ffff00;
     text-decoration: underline;
     word-wrap: break-word; }
+  .content.index a:hover,
+  .content.index a:active,
   .content.mission a:hover,
   .content.mission a:active,
   .content.technical a:hover,
@@ -109,10 +125,12 @@ nav ul {
   .content.archives a:active {
     color: #1b1b1b;
     background: #ffff00; }
+  .content.index li,
   .content.mission li,
   .content.technical li,
   .content.archives li {
     margin-bottom: 1rem; }
+  .content.index img,
   .content.mission img,
   .content.technical img,
   .content.archives img {
