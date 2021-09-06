@@ -1,0 +1,13 @@
+<main class="container-fluid">
+  {% for date in site.data.events %}
+  <div class="row">
+    <div class="col-md-6 col-sm-12 mb-5">
+      <a href="/assets/images/fc{{ date }}.jpg"><img class="img-fluid" src="/assets/images/fc{{ date }}.jpg" alt="FLASH CRASH {{ date }}"></a>
+    </div>
+    <div class="col-md-6 col-sm-12 mb-5">
+      <a href="/assets/images/fc{{ date }}-times.jpg"><img class="img-fluid" src="/assets/images/fc{{ date }}-times.jpg" alt="FLASH CRASH {{ date }}"></a>
+    </div>
+  </div>
+  {% endfor %}
+  <hr>
+</main>

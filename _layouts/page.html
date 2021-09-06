@@ -1,4 +1,10 @@
----
-layout: default
----
-{{ content }}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include head.html %}
+<body class="{{ page.class }}">
+{% include header.html %}
+{% include main.html %}
+{% include footer.html %}
+{% include javascript.html %}
+</body>
+</html>

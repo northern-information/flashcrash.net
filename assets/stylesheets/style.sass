@@ -2,19 +2,46 @@ $yellow: #ffff00
 $black: #1b1b1b
 
 $sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
-$mono: 'VT323', monospace
+$mono: "VT323", monospace
+$serif: "Times New Roman", Times, serif
 
 body
   font-family: $sans
   background: $yellow
   color: $black
 
-h1, h2, h3, h4, h5, h6
-  font-size: 2rem
+  &.secret
+    background: #FFFFFF
+    font-family: $serif
+
+    h1, h2
+      text-align: center
+
+    a,
+    a:link,
+    a:visited
+      color: #0000FF
+      text-decoration: underline
+    a:hover,
+    a:active
+      color: #FFFFFF
+      background: #0000FF
+
+
+h1
+  font-size: 4rem
+
+h2, h3, h4, h5, h6, header a
+  font-size: 2.5rem
 
 p, li
   font-size: 2rem
 
+ul
+  list-style-type: square
+  padding-right: 0
+  padding-left: 30px
+  
 a,
 a:link,
 a:visited
@@ -25,6 +52,24 @@ a:hover,
 a:active
   color: $yellow
   background: $black
+
+a img,
+a:link img,
+a:visited img,
+iframe
+  padding: 10px
+  background: $black
+a:hover img,
+a:active img,
+  background: $yellow
+
+iframe
+  width: 100%
+  min-height: 500px
+  height: auto
+
+hr
+  border-top: 10px solid $black
 
 nav ul
   margin: 0
@@ -44,70 +89,40 @@ nav ul
     color: $yellow
     text-decoration: none
 
-.index ul
-  list-style-type: none
-  margin: 0
-  padding: 0
+footer
+  font-size: 2.5rem
+  font-family: $serif
+  font-style: italic
 
-.mission ul
-  list-style-position: outside
-  margin: 0
-  padding: 0 0 0 30px
-  li
-    list-style-type: square
+  div
+    display: inline-block
 
-.technical ol
-  list-style-position: outside
-  margin: 0
-  padding: 0 0 0 30px
-
-.content.index,
-.content.mission,
-.content.technical,
-.content.archives
-  background: $black
-  font-weight: bold
-  padding: 2rem
-  p, li, pre, code
-    color: $yellow
-  h1, h2, h3, h4, h5, h6
-    color: $yellow
-    font-family: $mono
-    font-size: 3rem
-    border-bottom: 3px solid $yellow
-  a,
-  a:link,
-  a:visited
-    color: $yellow
-    text-decoration: underline
-    word-wrap: break-word
-  a:hover,
-  a:active
-    color: $black
-    background: $yellow
-  li
-    margin-bottom: 1rem
-  img
-    max-width: 100%
-    height: auto
-
-.northern-information
-  a
-    display: block
+  .northern-information
     width: 75px
     height: 35px
-    margin: auto
-    margin-top: 25px
+    display: inline-block
+    a
+      display: block
+      width: 75px
+      margin: auto
 
+    a:hover .ni
+      fill: $yellow
 
-  a:hover .ni
-    fill: $yellow
+    .ni
+      fill: $black
 
-  .ni
-    fill: $black
+  .map-corps
+    width: 35px
+    height: 35px
+    display: inline-block
+    a
+      width: 35px
+      display: block
+      margin: auto
 
-iframe
-  padding: 15px
-  width: 100%
-  min-height: 400px
-  height: auto
+    a:hover .mc
+      fill: $yellow
+
+    .mc
+      fill: $black

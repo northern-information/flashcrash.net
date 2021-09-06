@@ -2,12 +2,34 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background: #ffff00;
   color: #1b1b1b; }
+  body.secret {
+    background: #FFFFFF;
+    font-family: "Times New Roman", Times, serif; }
+    body.secret h1, body.secret h2 {
+      text-align: center; }
+    body.secret a,
+    body.secret a:link,
+    body.secret a:visited {
+      color: #0000FF;
+      text-decoration: underline; }
+    body.secret a:hover,
+    body.secret a:active {
+      color: #FFFFFF;
+      background: #0000FF; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 2rem; }
+h1 {
+  font-size: 4rem; }
+
+h2, h3, h4, h5, h6, header a {
+  font-size: 2.5rem; }
 
 p, li {
   font-size: 2rem; }
+
+ul {
+  list-style-type: square;
+  padding-right: 0;
+  padding-left: 30px; }
 
 a,
 a:link,
@@ -20,6 +42,25 @@ a:hover,
 a:active {
   color: #ffff00;
   background: #1b1b1b; }
+
+a img,
+a:link img,
+a:visited img,
+iframe {
+  padding: 10px;
+  background: #1b1b1b; }
+
+a:hover img,
+a:active img {
+  background: #ffff00; }
+
+iframe {
+  width: 100%;
+  min-height: 500px;
+  height: auto; }
+
+hr {
+  border-top: 10px solid #1b1b1b; }
 
 nav ul {
   margin: 0;
@@ -39,119 +80,35 @@ nav ul {
     color: #ffff00;
     text-decoration: none; }
 
-.index ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-
-.mission ul {
-  list-style-position: outside;
-  margin: 0;
-  padding: 0 0 0 30px; }
-  .mission ul li {
-    list-style-type: square; }
-
-.technical ol {
-  list-style-position: outside;
-  margin: 0;
-  padding: 0 0 0 30px; }
-
-.content.index,
-.content.mission,
-.content.technical,
-.content.archives {
-  background: #1b1b1b;
-  font-weight: bold;
-  padding: 2rem; }
-  .content.index p, .content.index li, .content.index pre, .content.index code,
-  .content.mission p,
-  .content.mission li,
-  .content.mission pre,
-  .content.mission code,
-  .content.technical p,
-  .content.technical li,
-  .content.technical pre,
-  .content.technical code,
-  .content.archives p,
-  .content.archives li,
-  .content.archives pre,
-  .content.archives code {
-    color: #ffff00; }
-  .content.index h1, .content.index h2, .content.index h3, .content.index h4, .content.index h5, .content.index h6,
-  .content.mission h1,
-  .content.mission h2,
-  .content.mission h3,
-  .content.mission h4,
-  .content.mission h5,
-  .content.mission h6,
-  .content.technical h1,
-  .content.technical h2,
-  .content.technical h3,
-  .content.technical h4,
-  .content.technical h5,
-  .content.technical h6,
-  .content.archives h1,
-  .content.archives h2,
-  .content.archives h3,
-  .content.archives h4,
-  .content.archives h5,
-  .content.archives h6 {
-    color: #ffff00;
-    font-family: "VT323", monospace;
-    font-size: 3rem;
-    border-bottom: 3px solid #ffff00; }
-  .content.index a,
-  .content.index a:link,
-  .content.index a:visited,
-  .content.mission a,
-  .content.mission a:link,
-  .content.mission a:visited,
-  .content.technical a,
-  .content.technical a:link,
-  .content.technical a:visited,
-  .content.archives a,
-  .content.archives a:link,
-  .content.archives a:visited {
-    color: #ffff00;
-    text-decoration: underline;
-    word-wrap: break-word; }
-  .content.index a:hover,
-  .content.index a:active,
-  .content.mission a:hover,
-  .content.mission a:active,
-  .content.technical a:hover,
-  .content.technical a:active,
-  .content.archives a:hover,
-  .content.archives a:active {
-    color: #1b1b1b;
-    background: #ffff00; }
-  .content.index li,
-  .content.mission li,
-  .content.technical li,
-  .content.archives li {
-    margin-bottom: 1rem; }
-  .content.index img,
-  .content.mission img,
-  .content.technical img,
-  .content.archives img {
-    max-width: 100%;
-    height: auto; }
-
-.northern-information a {
-  display: block;
-  width: 75px;
-  height: 35px;
-  margin: auto;
-  margin-top: 25px; }
-.northern-information a:hover .ni {
-  fill: #ffff00; }
-.northern-information .ni {
-  fill: #1b1b1b; }
-
-iframe {
-  padding: 15px;
-  width: 100%;
-  min-height: 400px;
-  height: auto; }
+footer {
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic; }
+  footer div {
+    display: inline-block; }
+  footer .northern-information {
+    width: 75px;
+    height: 35px;
+    display: inline-block; }
+    footer .northern-information a {
+      display: block;
+      width: 75px;
+      margin: auto; }
+    footer .northern-information a:hover .ni {
+      fill: #ffff00; }
+    footer .northern-information .ni {
+      fill: #1b1b1b; }
+  footer .map-corps {
+    width: 35px;
+    height: 35px;
+    display: inline-block; }
+    footer .map-corps a {
+      width: 35px;
+      display: block;
+      margin: auto; }
+    footer .map-corps a:hover .mc {
+      fill: #ffff00; }
+    footer .map-corps .mc {
+      fill: #1b1b1b; }
 
 /*# sourceMappingURL=style.css.map */
