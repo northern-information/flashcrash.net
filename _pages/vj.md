@@ -14,6 +14,12 @@ class: secret
 ## Preparation
 ---
 
+*Resources*
+
+- (Signup Sheet)[https://docs.google.com/spreadsheets/d/1j9zcKIlbzhhd2d2vw5lwknjNA5H5lMPaGscLkPeiP4Q]
+- (SLOBS)[https://streamlabs.com/]
+- (vdo.ninja)[https://vdo.ninja]
+
 *Sign Up Sheet & Marketing*
 
 - Todo
@@ -79,7 +85,7 @@ class: secret
 
 *Recursive Sign Up*
 
-- At the end of each Flash Crash we always announce the next Flash Crash. Share the signup sheet URL on stream somehow and let poeple konw signups are open.
+- At the end of each Flash Crash we always announce the next Flash Crash. Share the signup sheet URL on stream somehow and let people know signups are open.
 
 *After Party*
 
