@@ -22,6 +22,10 @@ body.secret a:active {
   background: #0000FF;
 }
 
+.container-fluid {
+  max-width: 1400px;
+}
+
 h1 {
   font-size: 4rem;
 }
