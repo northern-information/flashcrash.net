@@ -1,8 +1,35 @@
-- 220402
-- 220205
-- 220101
-- 211016
-- 210904
-- 210807
-- 210710
-- 210605
+- name: 220604
+  left:  jpg
+  right: mp4
+
+- name: 220402
+  left:  jpg
+  right: jpg
+
+- name: 220205
+  left:  jpg
+  right: jpg
+
+- name: 220101
+  left:  jpg
+  right: jpg
+
+- name: 211016
+  left:  jpg
+  right: jpg
+
+- name: 210904
+  left:  jpg
+  right: jpg
+
+- name: 210807
+  left:  jpg
+  right: jpg
+
+- name: 210710
+  left:  jpg
+  right: jpg
+
+- name: 210605
+  left:  jpg
+  right: jpg
