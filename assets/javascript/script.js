@@ -1,5 +1,12 @@
 $(function() {
 
+// Twitch
+new Twitch.Embed("twitch-embed", {
+  width: 854,
+  height: 480,
+  channel: "lines_community"
+});
+
 // Thanks to Andy E for this shuffler:
 // https://stackoverflow.com/questions/3943772/how-do-i-shuffle-the-characters-in-a-string-in-javascript
 String.prototype.shuffle = function () {
