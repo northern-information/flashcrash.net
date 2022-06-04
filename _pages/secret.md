@@ -28,9 +28,9 @@ Speaking of archives: agreeing to performing on Flash Crash is also agreeing to 
 
 ---
 
-### DISCORD
+### DISCORD & COMMUNICATION
 
-If you are performing live you *must* join the temporary Flash Crash Discord. This is where we coordinate cutover events and offer technical support.
+All stream coordination and communication occurs in a temporary Discord server. If you do not signup with a monitored Discord handle you cannot play.
 
 ---
 
