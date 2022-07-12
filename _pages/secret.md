@@ -45,10 +45,11 @@ It is just a few steps:
 1. Go to [https://vdo.ninja/](https://vdo.ninja/)
 2. Click on "Add Your Camera to OBS."
 3. Configure your audio and video sources. If you have a scene set up in OBS that you want to use, you can start the "Virtual Camera" in OBS and use that as your video source. You can hop in any time to make sure your set up works - you should see yourself and hear your own audio in the browser.
-3. Once that is working, you'll see your stream URL at the top of the page. Share this with the organizers in the #stream-coordination channel in Discord. It will look something like this: `https://vdo.ninja/?view=UmjMeRx`
-4. The organizers will take your VDO Ninja stream and pipe you into the [https://twitch.tv/lines_community](https://twitch.tv/lines_community).
-5. You crash.
-6. The end!
+4. Appending &stereo to the end of the URL for both the outbound and inbound URLs will enable stereo audio if available. For more information, refer to the [&stereo docs](https://docs.vdo.ninja/advanced-settings/audio-parameters/stereo)
+5. Once that is working, you'll see your stream URL at the top of the page. Share this with the organizers in the #stream-coordination channel in Discord. It will look something like this: `https://vdo.ninja/?view=UmjMeRx`
+6. The organizers will take your VDO Ninja stream and pipe you into the [https://twitch.tv/lines_community](https://twitch.tv/lines_community).
+7. You crash.
+8. The end!
 
 ---
 
