@@ -2,6 +2,10 @@
   class: fc
   url: /
 
+- title: FLIERS
+  class: 
+  url: /fliers
+
 - title: MISSION
   class:
   url: /mission/
@@ -9,3 +13,7 @@
 - title: ARCHIVES
   class:
   url: /archives/
+
+- title: SECRET
+  class:
+  url: /secret/

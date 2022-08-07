@@ -5,7 +5,7 @@ permalink: /mission/
 class: mission
 ---
 
-# We are...
+# We were...
 
 - ... a celebration of livecoding.
 - ... root(-kit)ed in the global livecoding scene.
