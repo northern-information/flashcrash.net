@@ -1,126 +1,158 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background: #ffff00;
-  color: #1b1b1b; }
-  body.secret {
-    background: #FFFFFF;
-    font-family: "Times New Roman", Times, serif; }
-    body.secret h1, body.secret h2 {
-      text-align: center; }
-    body.secret a,
-    body.secret a:link,
-    body.secret a:visited {
-      color: #0000FF;
-      text-decoration: underline; }
-    body.secret a:hover,
-    body.secret a:active {
-      color: #FFFFFF;
-      background: #0000FF; }
+  color: #1b1b1b;
+}
+body.secret {
+  background: #FFFFFF;
+  font-family: "Times New Roman", Times, serif;
+}
+body.secret h1, body.secret h2 {
+  text-align: center;
+}
+body.secret a,
+body.secret a:link,
+body.secret a:visited {
+  color: #0000FF;
+  text-decoration: underline;
+}
+body.secret a:hover,
+body.secret a:active {
+  color: #FFFFFF;
+  background: #0000FF;
+}
 
 iframe {
-  border: 0; }
+  border: 0;
+}
 
 .container-fluid {
-  max-width: 1400px; }
+  max-width: 1400px;
+}
 
 h1 {
-  font-size: 4rem; }
+  font-size: 4rem;
+}
 
 h2, h3, h4, h5, h6, header a {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+}
 
 p, li {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 ul {
   list-style-type: square;
   padding-right: 0;
-  padding-left: 30px; }
+  padding-left: 30px;
+}
 
 a,
 a:link,
 a:visited {
   color: #1b1b1b;
   text-decoration: underline;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+}
 
 a:hover,
 a:active {
   color: #ffff00;
-  background: #1b1b1b; }
+  background: #1b1b1b;
+}
 
 a img,
 a:link img,
 a:visited img,
 iframe {
   padding: 10px;
-  background: #1b1b1b; }
+  background: #1b1b1b;
+}
 
 a:hover img,
 a:active img {
-  background: #ffff00; }
+  background: #ffff00;
+}
 
 iframe {
   width: 100%;
   min-height: 500px;
-  height: auto; }
+  height: auto;
+}
 
 video {
   background: #1b1b1b;
   padding: 10px;
   width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 hr {
-  border-top: 10px solid #1b1b1b; }
+  border-top: 10px solid #1b1b1b;
+}
 
 nav ul {
   margin: 0;
-  padding: 0; }
-  nav ul li {
-    display: inline; }
-    nav ul li a {
-      font-family: "VT323", monospace;
-      border: 4px solid #1b1b1b;
-      font-size: 3rem;
-      color: #1b1b1b;
-      padding: 0 5px;
-      text-decoration: none !important; }
-  nav ul li.active a,
-  nav ul li a:hover {
-    background: #1b1b1b;
-    color: #ffff00;
-    text-decoration: none; }
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  font-family: "VT323", monospace;
+  border: 4px solid #1b1b1b;
+  font-size: 3rem;
+  color: #1b1b1b;
+  padding: 0 5px;
+  text-decoration: none !important;
+}
+nav ul li.active a,
+nav ul li a:hover {
+  background: #1b1b1b;
+  color: #ffff00;
+  text-decoration: none;
+}
 
 footer {
   font-size: 2.5rem;
   font-family: "Times New Roman", Times, serif;
-  font-style: italic; }
-  footer div {
-    display: inline-block; }
-  footer .northern-information {
-    width: 75px;
-    height: 35px;
-    display: inline-block; }
-    footer .northern-information a {
-      display: block;
-      width: 75px;
-      margin: auto; }
-    footer .northern-information a:hover .ni {
-      fill: #ffff00; }
-    footer .northern-information .ni {
-      fill: #1b1b1b; }
-  footer .map-corps {
-    width: 35px;
-    height: 35px;
-    display: inline-block; }
-    footer .map-corps a {
-      width: 35px;
-      display: block;
-      margin: auto; }
-    footer .map-corps a:hover .mc {
-      fill: #ffff00; }
-    footer .map-corps .mc {
-      fill: #1b1b1b; }
+  font-style: italic;
+}
+footer div {
+  display: inline-block;
+}
+footer .northern-information {
+  width: 75px;
+  height: 35px;
+  display: inline-block;
+}
+footer .northern-information a {
+  display: block;
+  width: 75px;
+  margin: auto;
+}
+footer .northern-information a:hover .ni {
+  fill: #ffff00;
+}
+footer .northern-information .ni {
+  fill: #1b1b1b;
+}
+footer .map-corps {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+footer .map-corps a {
+  width: 35px;
+  display: block;
+  margin: auto;
+}
+footer .map-corps a:hover .mc {
+  fill: #ffff00;
+}
+footer .map-corps .mc {
+  fill: #1b1b1b;
+}
 
 /*# sourceMappingURL=style.css.map */
