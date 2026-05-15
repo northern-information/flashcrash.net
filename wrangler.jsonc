@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "flashcrash-net",
+  "compatibility_date": "2026-05-14",
+  "assets": {
+    "directory": "./_site",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "flashcrash.net/*",
+      "zone_name": "flashcrash.net"
+    }
+  ]
+}
