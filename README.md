@@ -1,9 +1,11 @@
 # [https://flashcrash.net](https://flashcrash.net)
 
-## Development
+Static HTML site (converted from Jekyll in 2026-05).
 
-1. Clone the repository to your computer and `cd` into it.
-2. `npm run build`
-3. `npm run dev`
-4. Visit [http://127.0.0.1:4000](http://127.0.0.1:4000) in your browser.
-5. To work with the CSS: `npm run css`
+## Editing
+
+Edit pages directly under `index.html`, `archives/index.html`, `fliers/index.html`, `mission/index.html`, `secret/index.html`, `vj.html`, `404.html`. Assets live under `assets/`. `feed.xml` and `sitemap.xml` are static snapshots — update by hand if you add content.
+
+## Deploy
+
+Deployed to the `flashcrash-net` Cloudflare Worker (Workers Static Assets) on push to `main` via `.github/workflows/deploy.yml`. Worker config: `wrangler.jsonc`. Requires `CLOUDFLARE_API_TOKEN` repo secret.
